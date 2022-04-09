@@ -26,7 +26,7 @@ bootstrap_servers = data['bootstrap_servers']
 sasl_plain_username = data['Api key']
 sasl_plain_password = data['Api secret']
 topicName = 'Covid19'  # TODO: fill by topic name
-schemaID = 0  # TODO: set the schema ID.
+schemaID = 100001  # TODO: set the schema ID.
 
 
 # initalize the Serializer
