@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS TimeSeries (
 
 USE Covid19;
 LOAD DATA INFILE '/home/ashwinsudharsan7/Cloud-Project-Exam/Q1/time-series-19-covid-combined.csv'
-INTO TABLE table_name
+INTO TABLE TimeSeries
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '/n'
