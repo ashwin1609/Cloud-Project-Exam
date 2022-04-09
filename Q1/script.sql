@@ -12,13 +12,10 @@ CREATE TABLE IF NOT EXISTS TimeSeries (
   Confirmed INTEGER,
   Recovered INTEGER,
   Deaths INTEGER
-
-  modified timestamp default CURRENT_TIMESTAMP NOT NULL,
-  INDEX `modified_index` (`modified`)
 );
 
 USE Covid19;
-LOAD DATA INFILE '/home/ashwinsudharsan7/Cloud-Project-Exam/Q1/time-series-19-covid-combined.csv'
+LOAD DATA INFILE '/home/Cloud-Project-Exam/Q1/time-series-19-covid-combined.csv'
 INTO TABLE TimeSeries
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
